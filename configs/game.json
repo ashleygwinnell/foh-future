@@ -1,0 +1,152 @@
+{
+	"game": {
+		"name": "The Butterly Effect",
+		"name_safe": "butterflyeffect",
+		"description": "Cause and consequence",
+
+		"class_name": "DefaultGame",
+		"orientation": "landscape",
+		"clearcolor": "#002503",
+		"version": "0.1.0",
+
+		"folders": {
+			"preproduction": "__preproduction",
+			"resources": "data",
+			"output": "build"
+		}
+	},
+	"developer": {
+		"name": "Force Of Habit",
+		"name_safe": "forceofhabit"
+	},
+	"src_files": [
+		"src/main.cpp",
+		"src/DefaultGame.cpp",
+
+        "src/states/BlankState.cpp",
+		"src/states/InGameState.cpp",
+        "src/states/InstructionsState.cpp",
+        "src/states/MenuState.cpp",
+        "src/states/SplashState.cpp",
+        "src/states/SummaryState.cpp",
+        
+        "src/objects/Bomb.cpp",
+        "src/objects/EightWayMovementComponent.cpp",
+        "src/objects/Enemy.cpp",
+        "src/objects/Flower.cpp",
+        "src/objects/MyParticle.cpp",
+        "src/objects/Object.cpp",
+        "src/objects/Player.cpp",
+        "src/objects/Tile.cpp",       
+        "src/objects/ArrowBox.cpp",       
+        "src/objects/Arrow.cpp",       
+        "src/objects/Buzzsaw.cpp",       
+        
+        "src/util/FMOD.cpp",       
+
+		"src/Resources.rc"
+	],
+	"mkdirs": [
+
+	],
+	"resources": {
+        "spritesheets": [
+            {
+                "name": "all",
+                "output_folder": "data",
+                "max_texture_width": 512,
+                "max_texture_height": 512,
+                "spacing": 1,
+                "output": "all",
+                "format": "JSON",
+                "files": [
+                    "__preproduction/background.png",
+                    "__preproduction/menu.png",
+                    "__preproduction/ending.png",
+
+                	"__preproduction/sprites/arrow-block-empty.png",
+                	"__preproduction/sprites/arrow-block-full.png",
+                	"__preproduction/sprites/arrow.png",
+                    "__preproduction/sprites/bomb-1.png",
+                    "__preproduction/sprites/bomb-2.png",
+                    "__preproduction/sprites/bomb-3.png",
+                	"__preproduction/sprites/butterfly-1.png",
+                    "__preproduction/sprites/butterfly-2.png",
+                    "__preproduction/sprites/butterfly-3.png",
+                    "__preproduction/sprites/butterfly-gib-left.png",
+                    "__preproduction/sprites/butterfly-gib-middle.png",
+                    "__preproduction/sprites/butterfly-gib-right.png",
+                    "__preproduction/sprites/butterfly-large-1.png",
+                    "__preproduction/sprites/butterfly-large-2.png",
+                    "__preproduction/sprites/butterfly-large-3.png",
+                    "__preproduction/sprites/butterfly-large-gib-tl.png",
+                    "__preproduction/sprites/butterfly-large-gib-tr.png",
+                    "__preproduction/sprites/butterfly-large-gib-bl.png",
+                    "__preproduction/sprites/butterfly-large-gib-br.png",
+                    "__preproduction/sprites/butterfly-large-gib-middle.png",
+                    "__preproduction/sprites/buzzsaw-1.png",
+                	"__preproduction/sprites/buzzsaw-2.png",
+                    "__preproduction/sprites/cloud-1x1.png",
+                    "__preproduction/sprites/cloud-2x2.png",
+                    "__preproduction/sprites/cloud-3x3.png",
+                	"__preproduction/sprites/cloud-4x4.png",
+                	"__preproduction/sprites/cloud-5x5.png",
+                	"__preproduction/sprites/cloud-7x7.png",
+                	"__preproduction/sprites/coin.png",
+                	"__preproduction/sprites/fan-1.png",
+                	"__preproduction/sprites/flag-hole.png",
+                	"__preproduction/sprites/flag-pole.png",
+                	"__preproduction/sprites/flowers-1.png",
+                	"__preproduction/sprites/flowers-2.png",
+                	"__preproduction/sprites/flowers-3.png",
+                	"__preproduction/sprites/gravity-well.png",
+                	"__preproduction/sprites/platform.png",
+                	"__preproduction/sprites/player-back-1.png",
+                	"__preproduction/sprites/player-back-2.png",
+                	"__preproduction/sprites/player-front-1.png",
+                	"__preproduction/sprites/player-front-2.png",
+                    "__preproduction/sprites/player-shadow.png",
+                    "__preproduction/sprites/player-gib-head.png",
+                    "__preproduction/sprites/player-gib-body.png",
+                    "__preproduction/sprites/player-gib-hand.png",
+                	"__preproduction/sprites/player-gib-foot.png",
+                    "__preproduction/sprites/slug-1.png",
+                    "__preproduction/sprites/slug-2.png",
+                    "__preproduction/sprites/slug-gib-1.png",
+                    "__preproduction/sprites/slug-gib-2.png",
+                    "__preproduction/sprites/slug-gib-3.png",
+                	"__preproduction/sprites/tile-bl.png",
+                	"__preproduction/sprites/tile-bottom.png",
+                	"__preproduction/sprites/tile-middle.png",
+                	"__preproduction/sprites/tile-left.png",
+                	"__preproduction/sprites/tile-tl.png",
+                    "__preproduction/sprites/tile-top.png",
+                    "__preproduction/sprites/tile-advance.png",
+                    "__preproduction/sprites/tile-advance-gib-1.png",
+                	"__preproduction/sprites/tile-advance-gib-2.png",
+                    "__preproduction/sprites/icon-glove.png",
+                    "__preproduction/sprites/icon-hand.png",
+                    "__preproduction/sprites/icon-bomb.png",
+                	"__preproduction/sprites/icon-day.png",
+
+                	"__preproduction/white/enemy-1.png",
+                	"__preproduction/white/enemy-2.png",
+                	"__preproduction/white/enemy-3.png",
+                	"__preproduction/white/enemy-4.png",
+                	"__preproduction/white/enemy-large-1.png",
+                	"__preproduction/white/enemy-large-2.png",
+                	"__preproduction/white/enemy-large-3.png",
+                	"__preproduction/white/enemy-large-4.png",
+                	"__preproduction/white/player-1.png",
+                	"__preproduction/white/player-2.png",
+                	"__preproduction/white/player-3.png",
+                	"__preproduction/white/player-4.png",
+                	"__preproduction/white/player-5.png",
+                	"__preproduction/white/player-fist.png",
+                	"__preproduction/white/tile.png",
+                	"__preproduction/white/tile-fill.png"
+                ]
+            }
+        ]
+    }
+}

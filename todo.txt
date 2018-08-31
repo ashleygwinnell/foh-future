@@ -1,0 +1,65 @@
+The Butterfly Effect
+Knock-on Effects
+
+Goal: Always force the opposite behaviour.
+Example: 
+- movement / no movement
+- attacking / not attacking
+- staying in the middle / staying on the outside
+
+DONE:
+	Player movement
+	Falling off the platforms / fail state
+	Enemies that restrict/push your movement.
+	Punch glove
+	Enemies dying
+	Tiles you have to touch.
+	Enemies scale in on spawn
+	Player death gibs
+	Enemy death gibs
+	Bombs
+	Next wave event
+	fade in new advance tiles
+	Sfx: 
+		die
+		glove charge
+		glove punch
+		bomb explode
+		next wave
+		enemy die
+		tile/pad touched
+	gib advance tiles.
+	summary screen 
+		reason for death
+		days survived
+	spawn progress blocks on solids only
+	shrink playarea once moved left/right a lot. 12 times?
+	Music 
+	add arrows after wave 4
+	Low pass filter on the menu music
+	Stronger enemy
+
+TODO:
+[] grass
+[] boss that walks around and destroys floor tiles.
+[] add gravity well after wave 8
+
+[] Sticky/slippery tiles
+[] Arrows spawn to fire at areas where player idles a lot
+[] Moving in grass / cutting grass makes bigger grass
+
+[] play area gets bigger every X levels.
+
+8 waves
+Grass cut particles
+Flowers cut particles
+
+High pass filter when a bomb goes off.
+
+IDEAS: 
+* Rapid fire, smaller weapon with small kick back.
+* Slower & bigger weapon with larger kick back
+* Pulse shield that pushes enemies away & into traps
+* Boomerang weapon
+- Slug you killed by standing on them come back as bad-ass-motherfuckers.
+- Destroying flowers become dangerous pirhanna plants.

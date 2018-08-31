@@ -1,0 +1,53 @@
+{
+	"name": "iOS",
+	"folder": "ios",
+	"platform": "ios",
+	"clean": false,
+	"defines": [
+		"USING_FMOD"
+	],
+	"include_dirs": [
+
+	],
+	"libs": [
+        
+	],
+	"ios": {
+        "icon": {
+            "use_master_icon": true,
+            "master_icon": "%PREPRODUCTION_DIR%/icon/1024.png",
+            "master_icon_interpolation": "nearest_neighbour",
+
+            "prerendered": true,
+            "icon_72": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-72.png",
+            "icon_72_2x": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-72@2x.png",
+            "icon_small_50": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-Small-50.png",
+            "icon_small_50_2x": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-Small-50@2x.png",
+            "icon_small_50_3x": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-Small-50@3x.png",
+            "icon_small": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-Small.png",
+            "icon_small_2x": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-Small@2x.png",
+            "icon": "%PREPRODUCTION_DIR%/icon/ios/2/Icon.png",
+            "icon_2x": "%PREPRODUCTION_DIR%/icon/ios/2/Icon@2x.png",
+            "icon_167": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-167.png",
+            "itunes_artwork": "%PREPRODUCTION_DIR%/icon/ios/2/iTunesArtwork.png",
+            "itunes_artwork_2x": "%PREPRODUCTION_DIR%/icon/ios/2/iTunesArtwork@2x.png",
+
+            "icon_40": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-40.png",
+            "icon_80": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-40@2x.png",
+            "icon_120": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-120.png",
+            "icon_76": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-76.png",
+            "icon_152": "%PREPRODUCTION_DIR%/icon/ios/2/Icon-76@2x.png"
+        },
+        "defaults": {
+            "use_master": true,
+            "master": "%PREPRODUCTION_DIR%/icon/1024.png"
+        },
+         "native_libraries": [
+            {
+                "name": "fmod",
+                "os": ["lib/ios/fmod/libfmod_iphoneos.a"],
+                "simulator": ["lib/ios/fmod/libfmod_iphonesimulator.a"]
+            }
+        ]
+    }
+}
